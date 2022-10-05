@@ -1,0 +1,119 @@
+body{
+    height: 2000px;
+   /* padding-top: 56px;*/
+}
+/*header*/
+.header{
+    background-color: lightgrey;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.logo{
+    display: inline-block;
+    margin-right: 50px;
+}
+.nav{
+    display: inline-block;
+}
+.nav-li{
+    display: inline-block;
+    margin-right: 20px;
+}
+/*section1*/
+.section-text{
+    width: 300px;
+    background-color: aqua;
+}
+.section1{
+    margin-top: 56px;
+}
+/*section2*/
+.section-2{
+    margin-top: 20px;
+}
+.box-wrapper{
+width: 400px;
+height: 400px;
+background-color: green;
+position: relative;
+
+}
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    z-index: 5;
+}
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(18, 18, 18);
+    position: absolute;
+    right: 80px;
+    bottom: 100px;
+    z-index: 6;
+}
+.box-3{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    z-index: 7;
+    
+}
+/*section3*/
+.blu-box{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+}
+.yellow-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+/*section4*/
+.section4{
+    margin-top: 20px;
+}
+
+.image-wrapper{
+    position: relative;
+}
+
+
+.img-text{
+    position: absolute;
+    top:50px;
+    left: 100px;
+    
+}
+.image{
+    width: 100%;
+}
+/*section5*/
+.icon{
+    width: 60px;
+}
+.icon-wrapper{
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    
+}
